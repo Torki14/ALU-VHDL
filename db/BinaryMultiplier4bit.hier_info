@@ -1,0 +1,191 @@
+|BinaryMultiplier4bit
+A[0] => pp.IN0
+A[0] => pp[4].IN0
+A[0] => pp[8].IN0
+A[0] => pp[12].IN0
+A[1] => pp[1].IN0
+A[1] => pp[5].IN0
+A[1] => pp[9].IN0
+A[1] => pp[13].IN0
+A[2] => pp[2].IN0
+A[2] => pp[6].IN0
+A[2] => pp[10].IN0
+A[2] => pp[14].IN0
+A[3] => pp[3].IN0
+A[3] => pp[7].IN0
+A[3] => pp[11].IN0
+A[3] => pp[15].IN0
+B[0] => pp.IN1
+B[0] => pp[1].IN1
+B[0] => pp[2].IN1
+B[0] => pp[3].IN1
+B[1] => pp[4].IN1
+B[1] => pp[5].IN1
+B[1] => pp[6].IN1
+B[1] => pp[7].IN1
+B[2] => pp[8].IN1
+B[2] => pp[9].IN1
+B[2] => pp[10].IN1
+B[2] => pp[11].IN1
+B[3] => pp[12].IN1
+B[3] => pp[13].IN1
+B[3] => pp[14].IN1
+B[3] => pp[15].IN1
+P[0] <= pp.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= HalfAdder:HA1.Sum
+P[2] <= HalfAdder:HA3.Sum
+P[3] <= HalfAdder:HA4.Sum
+P[4] <= FullAdder:FA6.Sum
+P[5] <= FullAdder:FA7.Sum
+P[6] <= FullAdder:FA8.Sum
+P[7] <= FullAdder:FA8.Cout
+
+
+|BinaryMultiplier4bit|HalfAdder:HA1
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA1
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA2
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|HalfAdder:HA2
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|HalfAdder:HA3
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA3
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA4
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA5
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|HalfAdder:HA4
+A => Sum.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA6
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA7
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BinaryMultiplier4bit|FullAdder:FA8
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

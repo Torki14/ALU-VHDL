@@ -1,0 +1,19 @@
+|Less_than
+A[0] => LessThan0.IN4
+A[1] => LessThan0.IN3
+A[2] => LessThan0.IN2
+A[3] => LessThan0.IN1
+B[0] => LessThan0.IN8
+B[1] => LessThan0.IN7
+B[2] => LessThan0.IN6
+B[3] => LessThan0.IN5
+A_lt_B[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+A_lt_B[1] <= <GND>
+A_lt_B[2] <= <GND>
+A_lt_B[3] <= <GND>
+A_lt_B[4] <= <GND>
+A_lt_B[5] <= <GND>
+A_lt_B[6] <= <GND>
+A_lt_B[7] <= <GND>
+
+

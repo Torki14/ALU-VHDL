@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/simulation/modelsim
+Ealu
+Z1 w1752249600
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/ALU.vhd
+Z5 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/ALU.vhd
+l0
+L4
+V[Gg5dkoI[@1fOlE=Y0hPa0
+!s100 dbMo<0THg0D<a5ERfDN[P2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1752249633
+!i10b 1
+Z8 !s108 1752249633.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/ALU.vhd|
+Z10 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/ALU.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 3 alu 0 22 [Gg5dkoI[@1fOlE=Y0hPa0
+l63
+L13
+VAjD>TlmTZiYD]_Ye]j=Go0
+!s100 3LNNhL9H:D_An25;@P3QM3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebinarymultiplier4bit
+Z13 w1752248310
+R2
+R3
+R0
+Z14 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/binarymultiplier4bit.vhd
+Z15 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/binarymultiplier4bit.vhd
+l0
+L4
+VifT3m>2hCQ1KBVT0d>okd0
+!s100 nMX=D<>GK4M^9zKeT2S6A0
+R6
+31
+Z16 !s110 1752249634
+!i10b 1
+Z17 !s108 1752249634.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/binarymultiplier4bit.vhd|
+Z19 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/binarymultiplier4bit.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 20 binarymultiplier4bit 0 22 ifT3m>2hCQ1KBVT0d>okd0
+l28
+L12
+VcPQUg<Ldn>hH0bOj;]_?62
+!s100 ;T?IOQoz7M;g@^WD04:Pl0
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Efour_bit_adder
+Z20 w1752249361
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z22 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_adder.vhd
+Z23 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_adder.vhd
+l0
+L5
+VHFd509E2_nT`cgbLaO:UE0
+!s100 T:@O:=KOQ@_oG3nCnSW4F1
+R6
+31
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_adder.vhd|
+Z25 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_adder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R2
+R3
+DEx4 work 14 four_bit_adder 0 22 HFd509E2_nT`cgbLaO:UE0
+l14
+L13
+V_K[IaU7H9akWa[1Da<=2`3
+!s100 3GNaQ8WoZ4n6AaSjlziO50
+R6
+31
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Efour_bit_subtractor
+Z26 w1752240778
+R21
+R2
+R3
+R0
+Z27 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_subtractor.vhd
+Z28 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_subtractor.vhd
+l0
+L5
+VgIUeDGg84;<>UL@XVQi2E3
+!s100 kPKmV[l>l2CPL25aZHElB2
+R6
+31
+R16
+!i10b 1
+R17
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_subtractor.vhd|
+Z30 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/four_bit_subtractor.vhd|
+!i113 1
+R11
+R12
+Astructural
+R21
+R2
+R3
+DEx4 work 19 four_bit_subtractor 0 22 gIUeDGg84;<>UL@XVQi2E3
+l26
+L13
+VC0e0z?K`fh2VA6H:FM>Mi0
+!s100 a=dK?3jX==0VoBW_^>2BC1
+R6
+31
+R16
+!i10b 1
+R17
+R29
+R30
+!i113 1
+R11
+R12
+Efulladder
+Z31 w1752245665
+R2
+R3
+R0
+Z32 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/fulladder.vhd
+Z33 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/fulladder.vhd
+l0
+L4
+V4KF;Zg?W1ieie`c2kR@:12
+!s100 5a1l`e2Vfdn80l0NMNi1C3
+R6
+31
+R16
+!i10b 1
+R17
+Z34 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/fulladder.vhd|
+Z35 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/fulladder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 9 fulladder 0 22 4KF;Zg?W1ieie`c2kR@:12
+l10
+L9
+VzCnU^V`F@UmK?VniD30kH2
+!s100 MXCYYY6I8hkE?D?T0>d<R3
+R6
+31
+R16
+!i10b 1
+R17
+R34
+R35
+!i113 1
+R11
+R12
+Egreater_than
+Z36 w1752244029
+R21
+R2
+R3
+R0
+Z37 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/greater_than.vhd
+Z38 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/greater_than.vhd
+l0
+L5
+V6]9SXkCU;KU9YEL3?OM]b2
+!s100 W8U[Kj>L_W31d>54YzIni3
+R6
+31
+R16
+!i10b 1
+R17
+Z39 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/greater_than.vhd|
+Z40 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/greater_than.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R2
+R3
+DEx4 work 12 greater_than 0 22 6]9SXkCU;KU9YEL3?OM]b2
+l14
+L13
+VHO]=K0ZS_oIEI<GnFBo>I0
+!s100 K00R4e]C=k6R[l4eI?zZ;3
+R6
+31
+R16
+!i10b 1
+R17
+R39
+R40
+!i113 1
+R11
+R12
+Ehalfadder
+Z41 w1752245606
+R2
+R3
+R0
+Z42 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/halfadder.vhd
+Z43 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/halfadder.vhd
+l0
+L4
+V@^_`b;m`mH8`g5LIeUHTO2
+!s100 z2P<z?9D[he^d=<=6:ozo1
+R6
+31
+R16
+!i10b 1
+R17
+Z44 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/halfadder.vhd|
+Z45 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/halfadder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 9 halfadder 0 22 @^_`b;m`mH8`g5LIeUHTO2
+l10
+L9
+V9aDUH[Ii4hz?e2>fMf^NF1
+!s100 MLPD5FVkd`[ElTkH4@kL01
+R6
+31
+R16
+!i10b 1
+R17
+R44
+R45
+!i113 1
+R11
+R12
+Eless_than
+Z46 w1752244190
+R21
+R2
+R3
+R0
+Z47 8D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/less_than.vhd
+Z48 FD:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/less_than.vhd
+l0
+L5
+Vl]b^>153>:A<eJh7j0^Mz1
+!s100 ;h9XCoCoP3BH7GXE9i8A01
+R6
+31
+R16
+!i10b 1
+R17
+Z49 !s90 -reportprogress|300|-93|-work|work|D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/less_than.vhd|
+Z50 !s107 D:/Mohamed/Educationn/NTI/Mini_projects/01.ALU/less_than.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R2
+R3
+DEx4 work 9 less_than 0 22 l]b^>153>:A<eJh7j0^Mz1
+l14
+L13
+VXVTZn=FGEY;DmimY_SAS23
+!s100 R5iIUKSWX?Ve>S62VC9GW1
+R6
+31
+R16
+!i10b 1
+R17
+R49
+R50
+!i113 1
+R11
+R12
